@@ -6,7 +6,7 @@ let client = googleImages('006952629256965021975:r5dauwjjjoo', 'AIzaSyBYD2k4FzEv
 
 console.log('am i there?');
 
-client.search('php')
+client.search('sun')
     .then(function (images) {
         console.log(images.length);
         console.log(images);
@@ -26,14 +26,16 @@ client.search('php')
          */
     });
 
+console.log('am i there too?');
+
 /*
 // paginate results
-client.search('Steve Angello', {
+client.search('sun', {
     page: 2
 });
 
 // search for certain size
-client.search('Steve Angello', {
+client.search('sun', {
     size: 'large'
 });
 */
